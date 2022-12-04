@@ -16,15 +16,15 @@ It was announced in January 2016 that Applets would be deprecated in Java SE 9, 
 Still if you want to use applet, you can follow the below steps:
 
 1. Download JDK 1.8 and set its path to environment variables.
-2. Locate your applet file in command prompt.
-3. After locating the file compile it using
+2. Locate your java file in command prompt.
+3. After locating the file, compile your file using below commmand
 
 ```
-javac file-name-with-extension
+javac file-name-with-extension(.java)
 ```
 
-4. Then call appletviewer like
+4. Then call appletviewer by given command
 
 ```
-appletviewer file-name-with-extension
+appletviewer file-name-with-extension(.java)
 ```
